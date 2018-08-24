@@ -15,4 +15,5 @@ RSpec.feature "User submits a new artist" do
     expect(page).to have_content artist_name
     expect(page).to have_content artist_image_path
   end
+
 end

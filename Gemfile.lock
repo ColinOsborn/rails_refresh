@@ -77,11 +77,8 @@ GEM
     diff-lcs (1.3)
     erubi (1.7.1)
     execjs (2.7.0)
-    factory_girl (4.9.0)
+    factory_bot (4.11.0)
       activesupport (>= 3.0.0)
-    factory_girl_rails (4.9.0)
-      factory_girl (~> 4.9.0)
-      railties (>= 3.0.0)
     faker (1.9.1)
       i18n (>= 0.7)
     ffi (1.9.25)
@@ -253,7 +250,7 @@ DEPENDENCIES
   capybara (>= 2.15)
   chromedriver-helper
   coffee-rails (~> 4.2)
-  factory_girl_rails
+  factory_bot
   faker
   guard-rspec
   jbuilder (~> 2.5)
